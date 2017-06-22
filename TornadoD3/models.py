@@ -1,6 +1,6 @@
 import peewee
 
-myDB = peewee.MySQLDatabase("project_db", host="127.0.0.1", port=3306, user="root", passwd="",charset='utf8')
+myDB = peewee.MySQLDatabase("project_db", host="mysql_server", port=3306, user="root", passwd="123",charset='utf8')
 
 
 class MySQLModel(peewee.Model):
